@@ -1,0 +1,106 @@
+
+Python Exercises
+
+
+    What are the differences between using python3 interactively and using files? When would you use one or the other?
+    Challenge yourself to find as many different ways of drawing with a turtle object.
+    Take your time to draw something useful and/or crazy.
+
+
+    Draw a rectangle.
+
+
+    Draw an equilateral triangle.
+
+
+    ..................................................................
+
+
+    A bar wants to ensure only adults are allowed in. Write a program in a file named bar.py that prints ‘underaged’ or ‘ok’ depending on the age entered in the code.
+    A ride operator needs to ensure clients are taller than 150cm due to security. Write a prgram in a file named ride.py that will print ‘ok’ or ‘not tall enough’ given a height entered in the code.
+    A trader wants to algorithmically buy ‘ACME` corp stock if they rise above 0.005$ but sell if they are below 0.001$. Write a script trader.py that prints ‘buy’, ‘sell’, ‘hold’ depending on a sale price entered in the script.
+
+
+    .................................................................................
+
+  Rewrite the number programs bar.py, ride.py and trader.py to take input from the user. Think of an appropriate question to print to screen to solicit a correct response.
+
+What if the user enters nonsense? There is rarely a program without some form of validation. This is explored in the next exercise.
+
+    A sign up form on a website for the company ‘Very Big Corp. Of America’ requires information from its clients. The company wants to do gender based email marketing. Put this code in big_corp.py
+
+        a Write a program that asks clients their name, address, and gender. Ensure that
+
+            gender is represented as either ‘m’, ‘f’. If it is not ask the user again. Once all information is inputted print ‘Hi Mr Greg, we have shaving blades reduced this week’ and for women ‘Hi Ms Natalia, we have cosmetics currently on sale’
+        b The same program now requires people to enter their email address. Add this
+
+            but ensure it is well formed. You will need to define what a well formed email address is.
+
+    A mobile phone company bills clients on a certain plan differently depending on whether they have dialed a number containing 0845 or not. Write a program that asks the user which number they’d like to dial and answers whether it is ‘free’ or ‘paid’. Use mobile.py
+
+    A geneticist needs your help identifying if a dna sequence exists in a larger strand of dna. A DNA sequence consists of a sequence of A, T, G, and Cs. Write a program that takes a DNA sequence from the user and confirms ‘Found’ or ‘Not Found’ depending on whether the input is contained in the target DNA strand. Use dna.py
+
+    DNA strand: ATTGCGCCTTATGCTTAACC
+
+    As a challenge extend this program to check that the input is correct.
+
+.........................................................
+
+
+    Why do we have two different types to represent numbers?
+    Find some uses cases where you’d choose an int and others where a float is more suitable.
+
+
+
+    A bar wants to ensure only adults are allowed in. Write a program in a file named bar.py that prints ‘underaged’ or ‘ok’ depending on the age entered in the code.
+    A ride operator needs to ensure clients are taller than 150cm due to security. Write a prgram in a file named ride.py that will print ‘ok’ or ‘not tall enough’ given a height entered in the code.
+    A trader wants to algorithmically buy ‘ACME` corp stock if they rise above 0.005$ but sell if they are below 0.001$. Write a script trader.py that prints ‘buy’, ‘sell’, ‘hold’ depending on a sale price entered in the script.
+
+............................................................
+
+Write a program that asks the user for her age and prints how old she will be in 2050.
+
+
+.......................................................
+
+A loan repayment plan consists of a balance and monthly interest and repayments.
+
+The loan amount in question is £100. Repayments are made at £20. Interest is charged monthly at %10.
+
+Write a program that prints to screen the remaining balance after every month.
+Practical: Shoe Conversion
+
+A UK company wants to export shoes to continental Europe.
+
+It hires you to write a program that prompts the user for a UK size and return the equivalent size it would be in Europe.
+
+Here is a conversion table:
+Europe  UK
+38  5
+39  6
+40  7
+42  8
+
+........................................................
+
+
+The NHS has hired you to create a BMI Calculator.
+
+Write a command line program that asks a user for:
+
+    Weigth in Kilograms
+    Height in Meters
+
+Return the bmi result, followed by the users’ BMI classification.
+
+BMI Classification
+
+BMI     Classification
+18.5 or less    Underweight
+18.5 to 24.99   Normal Weight
+25 to 29.99     Overweight
+30 to 34.99     Obesity (Class 1)
+35 to 39.99     Obesity (Class 2)
+40 or greater   Morbid Obesity
+
+......................................................................
