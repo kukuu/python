@@ -1,0 +1,22 @@
+# printing output 
+print(out) 
+
+# Python code to filter even values from a list 
+  
+# Initialisation of list 
+lis = [73, 4, -1, 35, 12, 76, 77, 99, 2 ] 
+  
+# Output list initialisation 
+out = [] 
+  
+for num in lis:  
+      
+    # checking condition  
+    if num % 2 == 0:  
+        out.append(num) 
+          
+  
+# printing output 
+print(out) 
+Output:
+[4, 76, 12, 76, 2]
